@@ -285,10 +285,9 @@ a{
   
   .home__img {
     position: absolute;
-    right: 0;
+    right: -42px;
     bottom: 0;
-    width: 250px;
-    max-width: 40%;
+    width: 260px;
   }
   
   /* Desktop styles */
@@ -496,9 +495,9 @@ a{
         top: -6rem;
     }
     .home__img{
-        width: 50vh;
-        bottom: 13%;
-        right: 15%;
+        width: 80vh;
+        top: 30%;
+        right: -42px;
     }
     .about__container {
         grid-template-columns: repeat(2, 1fr);
